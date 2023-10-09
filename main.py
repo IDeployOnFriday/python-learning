@@ -18,7 +18,7 @@ def learn_strings():
     print("ha" * 4)
 
 #find occurence 
-    print(my_string.find("a"))
+    print(my_string.find('a'))
 
 # change case 
     print(my_string.upper()) 
@@ -42,6 +42,23 @@ def floats():
     #negative floats 
     print(4.5e-2) 
 
+def int_operators():
+    # addition
+    print("addition ", 6+4)
+    # subtraction
+    print("subtraction ", 6-4)
+    # division
+    print("division ", 6/2)
+    # multiplication
+    print("multiplication", 3*2)
+    # floor division
+    print("floor division", 6//4)
+    # remainder
+    print("remainder", 6%4)
+    # power of
+    print("power of", 2**3)
+
+
 
 def learn_multiline_strings():
     multi_string = '''
@@ -54,6 +71,6 @@ def learn_multiline_strings():
 
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
-    learn_strings()
+    int_operators()
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
