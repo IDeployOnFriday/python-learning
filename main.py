@@ -18,7 +18,7 @@ def learn_strings():
     print("ha" * 4)
 
 #find occurence 
-    print(my_string.find('a'))
+    print(my_string.find("a"))
 
 # change case 
     print(my_string.upper()) 
@@ -28,6 +28,20 @@ def learn_ints():
     my_int = 1
     my_int += 2
     print_func(my_int)
+
+def booleans():
+    my_flag = True 
+    my_flag = False 
+
+def floats():
+    print(2+2)
+    print(2.0+3.0) 
+    print(4.5e9) 
+    #compare numbers 
+    print(4.5e9 == 4.5 *(10 ** 9)) 
+    #negative floats 
+    print(4.5e-2) 
+
 
 def learn_multiline_strings():
     multi_string = '''
