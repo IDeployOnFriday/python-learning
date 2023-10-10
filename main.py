@@ -1,7 +1,4 @@
-# This is a sample Python script.
-
-# Press ⌃R to execute it or replace it with your code.
-# Press Double ⇧ to search everywhere for classes, files, tool windows, actions, and settings.
+from operators_1 import *
 
 
 def print_func(message):
@@ -71,6 +68,6 @@ def learn_multiline_strings():
 
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
-    int_operators()
+    shift_operators()
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
