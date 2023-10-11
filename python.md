@@ -1,0 +1,1 @@
+- control + f5 - run python file

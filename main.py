@@ -1,4 +1,5 @@
 from operators_1 import *
+from boolean_operators import *
 
 
 def print_func(message):
@@ -68,6 +69,6 @@ def learn_multiline_strings():
 
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
-    shift_operators()
+    bool_func3()
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
