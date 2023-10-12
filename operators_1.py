@@ -26,4 +26,13 @@ def shift_operators():
     b = 0b110 
     print(bin(b << 2))
     
-    
+def convert(): 
+    input = 1
+    print(float(input))
+    input = 1.3
+    print(int(input))
+    string_num = '12'
+    print(int(string_num))
+    #check if string is empty 
+    input_string = ''
+    print(bool(input_string))
