@@ -69,6 +69,6 @@ def learn_multiline_strings():
 
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
-    bool_func3()
-
+    favorite = input(" enter favorite  colour: ")
+    
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
