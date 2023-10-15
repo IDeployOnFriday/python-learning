@@ -7,3 +7,5 @@ def string_functions():
     print("Even index character:", message[0::2])
     print("Odd index character:", message[1::2])
     print("reversed message: ", message[::-1])
+
+ 
