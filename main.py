@@ -3,6 +3,7 @@ from boolean_operators import *
 from calculator import *
 from string_info import *
 from lists import *
+from tuples import *
 
 
 def print_func(message):
@@ -72,6 +73,6 @@ def learn_multiline_strings():
 
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
-    foo();
+    create_tuple("one", "TWO")
     
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
