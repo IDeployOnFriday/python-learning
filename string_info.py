@@ -21,4 +21,13 @@ def working_with_strings():
     print("alphabetically first: ", sorted_words[0])
     print("alphabetically last: ", sorted_words[-1])
 
+def split_names(name): 
+    
+    first_name, last_name = name.split(maxsplit=1)
+    return {
+        'first_name' : first_name,
+        'last_name': last_name,
+    }
+
+
  
